@@ -1,0 +1,154 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@400;600&display=swap');
+
+
+body{
+    text-align: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    font-family: 'Bai Jamjuree', sans-serif;
+}
+
+p{
+    color: hsl(201, 11%, 66%);
+}
+
+/*Buttons*/
+
+.btnIOS{
+     color: #fff;
+     background-color: hsl(171, 66%, 44%);
+     border: none;
+     border-radius: 40px;
+     box-shadow: 0 9px hsla(171, 67%, 62%, 0.080);
+     padding: 15px 40px;
+     font-size: 15px;
+     margin-right: 10px;
+}
+
+.btnIOS:hover{
+    color: rgb(252, 240, 240);
+    background-color: hsl(171, 76%, 38%);
+    cursor: pointer;
+}
+
+.btnMAC{
+    color: #fff;
+    background-color: hsl(233, 100%, 69%);
+    border: none;
+    border-radius: 40px;
+    box-shadow: 0 9px hsla(171, 67%, 62%, 0.080);
+    padding: 15px 40px;
+    font-size: 15px;
+}
+
+.btnMAC:hover{
+    color: rgb(252, 240, 240);
+    background-color:hsl(233, 86%, 61%) ;
+    cursor: pointer;
+}
+
+/*Header section*/
+
+.header{
+    background-image: url(bg-header-desktop.png);
+    background-size: cover;
+    padding: 6%;
+} 
+
+.headerPara{
+    width: 550px;
+    margin-bottom: 3%;
+    position: relative;
+    left: 30%;
+    padding-bottom: 3%;
+}
+
+/*Snippets section*/
+
+.img-desktop{
+    position: relative;
+    right: 30%;
+}
+
+.grid{
+    display: grid;
+}
+
+.box1{
+    width: 400px;
+    text-align: left;
+
+}
+
+/*Access-clipboard*/
+
+.access-clipboard{
+    padding: 6%;
+}
+
+
+/*Snippets*/
+
+.box2{
+    position: absolute;
+    left: 50%;
+    top: 110%;
+    text-align: left;
+    padding-right: 28%;
+
+}
+
+/*Workflow*/
+
+.workflow-box{
+    width: 300px;
+    line-height: 2;
+    display: inline-block;
+    margin: 0% 5%;
+    padding: 0% 0% 5%;
+}
+
+/*Logos*/
+
+.logo-img{
+    margin: 10% 5%;
+}
+
+/*Clipboard*/
+
+.clipboard{
+    padding: 0% 30% 5%;
+}
+
+.clip-h2{
+    font-family: Bai Jamjuree;
+    font-weight: 900;
+}
+
+.clip-p{
+    padding: 5% 0%;
+}
+
+/*Footer*/
+
+.footer{
+    text-align: left;
+    padding: 0 5%;
+}
+
+.footer-h4{
+    display: inline-block;
+    padding: 0% 10%;
+}
+
+.footer-box{
+    display: inline-block;
+    bottom: 110px;
+    width: 80%;
+}
+
+.footer-logo{
+    padding: 0 5px;
+}
